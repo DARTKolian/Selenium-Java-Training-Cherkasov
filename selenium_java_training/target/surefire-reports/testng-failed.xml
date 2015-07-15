@@ -5,14 +5,23 @@
   <test name="Test1(failed)">
     <parameter name="path" value="/"/>
     <classes>
-      <class name="cherkasov_learning.pages.HomePageTest">
+      <class name="selenium_training.CreateDescriptionNegative">
         <methods>
-          <include name="testH1Existing"/>
           <include name="init"/>
-          <include name="testInit"/>
+        </methods>
+      </class> <!-- selenium_training.CreateDescriptionNegative -->
+      <class name="selenium_training.DeleteDescription">
+        <methods>
+          <include name="init"/>
+          <include name="testUntitled"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- cherkasov_learning.pages.HomePageTest -->
+      </class> <!-- selenium_training.DeleteDescription -->
+      <class name="selenium_training.CreateDescription">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenium_training.CreateDescription -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->

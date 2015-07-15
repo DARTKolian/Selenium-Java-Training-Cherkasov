@@ -1,10 +1,12 @@
-package cherkasov_learning.pages;
+package selenium_training;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import selenium_training.pages.HomePage;
 
 public class HomePageTest extends TestBase {
 

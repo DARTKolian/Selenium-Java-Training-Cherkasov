@@ -1,4 +1,4 @@
-package cherkasov_learning;
+package selenium_training;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -10,13 +10,18 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class LoginTest extends cherkasov_learning.pages.TestBase {
+public class LoginTest extends TestBase {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
   @Test
   public void testUntitled() throws Exception {
-
+    driver.get(baseUrl + "/php4dvd/");
+    driver.findElement(By.id("username")).clear();
+    driver.findElement(By.id("username")).sendKeys("admin");
+    driver.findElement(By.name("password")).clear();
+    driver.findElement(By.name("password")).sendKeys("admin");
+    driver.findElement(By.name("submit")).click();
   }
 
   private boolean isElementPresent(By by) {

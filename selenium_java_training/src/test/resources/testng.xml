@@ -4,7 +4,9 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="cherkasov_learning.LoginTest"/>
+		    <class name="selenium_training.CreateDescription"/>
+		    <class name="selenium_training.CreateDescriptionNegative"/>
+		    <class name="selenium_training.DeleteDescription"/>
 		</classes>
 	</test>  
 </suite>
