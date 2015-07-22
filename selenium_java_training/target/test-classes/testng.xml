@@ -7,6 +7,8 @@
 		    <class name="selenium_training.CreateDescription"/>
 		    <class name="selenium_training.CreateDescriptionNegative"/>
 		    <class name="selenium_training.DeleteDescription"/>
+		    <class name="selenium_training.FindSomething"/>
+		    <class name="selenium_training.FindNothing"/>
 		</classes>
 	</test>  
 </suite>

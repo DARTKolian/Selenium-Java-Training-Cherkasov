@@ -5,15 +5,9 @@
   <test name="Test1(failed)">
     <parameter name="path" value="/"/>
     <classes>
-      <class name="selenium_training.CreateDescriptionNegative">
-        <methods>
-          <include name="init"/>
-        </methods>
-      </class> <!-- selenium_training.CreateDescriptionNegative -->
       <class name="selenium_training.DeleteDescription">
         <methods>
           <include name="init"/>
-          <include name="testUntitled"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- selenium_training.DeleteDescription -->
@@ -22,6 +16,23 @@
           <include name="init"/>
         </methods>
       </class> <!-- selenium_training.CreateDescription -->
+      <class name="selenium_training.CreateDescriptionNegative">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenium_training.CreateDescriptionNegative -->
+      <class name="selenium_training.FindNothing">
+        <methods>
+          <include name="testUntitled"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenium_training.FindNothing -->
+      <class name="selenium_training.FindSomething">
+        <methods>
+          <include name="testUntitled"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenium_training.FindSomething -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Tests] -->
