@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7299" started-at="2015-07-16T16:55:57Z" finished-at="2015-07-16T16:56:04Z">
+  <suite name="Default suite" duration-ms="7512" started-at="2015-07-17T16:23:42Z" finished-at="2015-07-17T16:23:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7299" started-at="2015-07-16T16:55:57Z" finished-at="2015-07-16T16:56:04Z">
+    <test name="Default test" duration-ms="7512" started-at="2015-07-17T16:23:42Z" finished-at="2015-07-17T16:23:50Z">
       <class name="selenium_training.FindSomething">
-        <test-method status="PASS" signature="init()[pri:0, instance:selenium_training.FindSomething@4ddb1314]" name="init" is-config="true" duration-ms="5280" started-at="2015-07-16T19:55:57Z" finished-at="2015-07-16T19:56:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium_training.FindSomething@b0df6fe]" name="init" is-config="true" duration-ms="5318" started-at="2015-07-17T19:23:42Z" finished-at="2015-07-17T19:23:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:selenium_training.FindSomething@4ddb1314]" name="testUntitled" duration-ms="2019" started-at="2015-07-16T19:56:02Z" finished-at="2015-07-16T19:56:04Z">
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:selenium_training.FindSomething@b0df6fe]" name="testUntitled" duration-ms="2179" started-at="2015-07-17T19:23:48Z" finished-at="2015-07-17T19:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_training.FindSomething@4ddb1314]" name="tearDown" is-config="true" duration-ms="486" started-at="2015-07-16T19:56:04Z" finished-at="2015-07-16T19:56:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_training.FindSomething@b0df6fe]" name="tearDown" is-config="true" duration-ms="537" started-at="2015-07-17T19:23:50Z" finished-at="2015-07-17T19:23:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
