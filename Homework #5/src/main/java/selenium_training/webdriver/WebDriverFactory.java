@@ -14,8 +14,6 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
-
-
 import selenium_training.util.Browser;
 import selenium_training.webdriver.AuthenticatedHtmlUnitDriver;
 

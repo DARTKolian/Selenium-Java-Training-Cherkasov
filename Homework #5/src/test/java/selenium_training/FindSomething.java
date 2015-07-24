@@ -1,4 +1,4 @@
-package selenium_training;
+/**package selenium_training;
 
 import java.util.List;
 import java.util.regex.Pattern;
@@ -65,4 +65,4 @@ public class FindSomething extends TestBase {
       acceptNextAlert = true;
     }
   }
-}
+}**/
