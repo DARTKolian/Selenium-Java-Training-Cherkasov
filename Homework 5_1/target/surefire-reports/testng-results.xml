@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="28296" started-at="2015-07-25T13:30:24Z" finished-at="2015-07-25T13:30:52Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="28296" started-at="2015-07-25T13:30:24Z" finished-at="2015-07-25T13:30:52Z">
+      <class name="selenium_training.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="init" is-config="true" duration-ms="5584" started-at="2015-07-25T16:30:24Z" finished-at="2015-07-25T16:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="mayBeLogout" is-config="true" duration-ms="10286" started-at="2015-07-25T16:30:29Z" finished-at="2015-07-25T16:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeLogout -->
+        <test-method status="PASS" signature="testLoginFailed()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="testLoginFailed" duration-ms="1021" started-at="2015-07-25T16:30:40Z" finished-at="2015-07-25T16:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailed -->
+        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="mayBeLogout" is-config="true" duration-ms="10256" started-at="2015-07-25T16:30:41Z" finished-at="2015-07-25T16:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeLogout -->
+        <test-method status="PASS" signature="testLoginOK()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="testLoginOK" duration-ms="1139" started-at="2015-07-25T16:30:51Z" finished-at="2015-07-25T16:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOK -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:selenium_training.LoginTest@76fb7505]" name="stop" is-config="true" duration-ms="428" started-at="2015-07-25T16:30:52Z" finished-at="2015-07-25T16:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- selenium_training.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
